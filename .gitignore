@@ -1,0 +1,57 @@
+# PyTorch / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual Environments (仮想環境)
+venv/
+venv_new/
+.venv/
+env/
+ENV/
+
+# Large Datasets and CSVs (大容量データ・集計結果)
+*.csv
+*.xlsx
+*.parquet
+*.jsonl
+*.npz
+data/
+result_csv/
+result_csv_residual/
+result_72_predict/
+results/
+last_24/
+
+# Deep Learning Weights (モデルの重み・チェックポイント)
+*.pth
+*.pt
+*.onnx
+learning_saver/
+learning_saver_72/
+learning_saver_residual/
+
+# Generated Plots and Figures (論文用画像アセット)
+*.png
+*.jpg
+*.jpeg
+*.pdf
+picture/
+picture_72/
+picture_analysis/
+picture_residual/
+thesis/*.png
+thesis/*.pdf
+
+# Logs and temporary runs (ログ・実験記録)
+*.log
+runs/
+.idea/
+.vscode/
+.gemini/
+.system_generated/
+/analysis_debug.log
+/fixed_run_output.log
+/optimization_run.log
+/params_full.txt
